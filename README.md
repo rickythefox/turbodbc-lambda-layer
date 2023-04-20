@@ -11,7 +11,7 @@ You can use the ready-built layer from the releases section of this repository o
   aws lambda publish-layer-version \
       --layer-name "turbodbc310" \
       --compatible-runtimes python3.10 \
-      --zip-file fileb://out/turbodbc-layer.zip
+      --zip-file fileb://turbodbc-layer.zip
 ```
 
 ### Build the layer yourself
