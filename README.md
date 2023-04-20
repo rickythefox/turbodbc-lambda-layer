@@ -4,8 +4,8 @@ This is a builder for an AWS lambda layer with [Turbodbc](https://turbodbc.readt
 ## Installation
 You can use the ready-built layer from the releases section of this repository or build your own using the provided builder.
 
-### Use the pre-built layer from Releases
-1. Download the zip file.
+### Use the pre-built layer
+1. Download the zip file from Releases.
 2. Run the following command to install the layer: 
 ```bash
   aws lambda publish-layer-version \
